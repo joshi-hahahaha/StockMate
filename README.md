@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# STOCKMATE - INTERACTIVE INVENTORY TRACKER
 
-## Getting Started
+1. Idea
+2. Features
+3. Tech Stack
+4. Frontend
+5. Backend
 
-First, run the development server:
+## 1. IDEA
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+StockMate is an easy-to-use inventory tracker application that provides individuals with the ability to quickly keep track of items and their amounts in stock.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+My goals and vision to differentiate StockMate as unique and different from pre-existing applications is to eventually incorporate ADVANCED FEATURES such as:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Digital Map Environment**: visually highlights the location where the item is stored.
+- **AI Powered Identification**: speed up the process of adding to stock.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 2. FEATURES
 
-## Learn More
+TO BE COMPLETED
 
-To learn more about Next.js, take a look at the following resources:
+## 3. TECH STACK
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **FRONTEND**: NextJS, TailwindCSS and potential UI libraries
+  - **DESIGN PROTOTYPING**: Figma
+- **BACKEND**: TypeScript and In-built NextJS API system
+- **DATABASE**: MongoDB
+- **DEPLOYMENT**: Vercel
+- **ACCOUNT AND AUTHENTICATION**: Google's OAuth
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 4. FRONTEND
 
-## Deploy on Vercel
+More information on frontend design can be found [here](src\documents\frontend.md).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 5. BACKEND
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+More information on frontend design can be found [here](src\documents\backend.md).
