@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { MongoClient } from "mongodb";
 
 const uri = process.env.MONGODB_URI as string;
@@ -13,7 +15,6 @@ let clientPromise: Promise<MongoClient>;
 
 if (process.env.NODE_ENV === "development") {
   if (!(global as any)._mongoClientPromise) {
-    console.log("MongoDB URI:", uri);
     client = new MongoClient(uri);
     (global as any)._mongoClientPromise = client.connect();
   }
